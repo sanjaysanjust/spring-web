@@ -1,0 +1,27 @@
+2023-01-24 18:27:26.830  INFO 24760 --- [main] c.sanjay.springweb.SpringWebApplication  : Starting SpringWebApplication using Java 1.8.0_321 on WIN-GUERTPVKTNI with PID 24760 (C:\Users\SanjayST\eclipse-spring-boot-workspace\spring-web\target\classes started by SanjayST in C:\Users\SanjayST\eclipse-spring-boot-workspace\spring-web)
+2023-01-24 18:27:26.833  INFO 24760 --- [main] c.sanjay.springweb.SpringWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-01-24 18:27:27.548  INFO 24760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-01-24 18:27:27.558  INFO 24760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-24 18:27:27.560  INFO 24760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-24 18:27:27.735  INFO 24760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-24 18:27:27.735  INFO 24760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 853 ms
+2023-01-24 18:27:28.118  INFO 24760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 18:27:28.131  INFO 24760 --- [main] c.sanjay.springweb.SpringWebApplication  : Started SpringWebApplication in 1.673 seconds (JVM running for 2.367)
+2023-01-24 18:27:35.149  INFO 24760 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-24 18:27:35.149  INFO 24760 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-24 18:27:35.150  INFO 24760 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-24 18:27:35.176  INFO 24760 --- [http-nio-8081-exec-1] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:27:35.176  WARN 24760 --- [http-nio-8081-exec-1] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:27:35.176 ERROR 24760 --- [http-nio-8081-exec-1] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:27:35.266  INFO 24760 --- [http-nio-8081-exec-2] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:27:35.267  WARN 24760 --- [http-nio-8081-exec-2] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:27:35.267 ERROR 24760 --- [http-nio-8081-exec-2] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:27:35.427  INFO 24760 --- [http-nio-8081-exec-3] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:27:35.427  WARN 24760 --- [http-nio-8081-exec-3] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:27:35.428 ERROR 24760 --- [http-nio-8081-exec-3] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:27:35.616  INFO 24760 --- [http-nio-8081-exec-4] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:27:35.616  WARN 24760 --- [http-nio-8081-exec-4] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:27:35.616 ERROR 24760 --- [http-nio-8081-exec-4] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:30:31.154  INFO 24760 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-24 18:30:31.367  INFO 24760 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-24 18:30:31.369  INFO 24760 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

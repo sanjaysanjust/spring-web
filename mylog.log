@@ -1,0 +1,30 @@
+2023-01-24 18:23:32.033  INFO 21372 --- [main] c.sanjay.springweb.SpringWebApplication  : Starting SpringWebApplication using Java 1.8.0_321 on WIN-GUERTPVKTNI with PID 21372 (C:\Users\SanjayST\eclipse-spring-boot-workspace\spring-web\target\classes started by SanjayST in C:\Users\SanjayST\eclipse-spring-boot-workspace\spring-web)
+2023-01-24 18:23:32.036  INFO 21372 --- [main] c.sanjay.springweb.SpringWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-01-24 18:23:32.912  INFO 21372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-01-24 18:23:32.927  INFO 21372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-24 18:23:32.928  INFO 21372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-24 18:23:33.084  INFO 21372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-24 18:23:33.085  INFO 21372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
+2023-01-24 18:23:33.450  INFO 21372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-24 18:23:33.461  INFO 21372 --- [main] c.sanjay.springweb.SpringWebApplication  : Started SpringWebApplication in 1.91 seconds (JVM running for 2.758)
+2023-01-24 18:23:45.338  INFO 21372 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-24 18:23:45.339  INFO 21372 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-24 18:23:45.340  INFO 21372 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-24 18:23:45.377  INFO 21372 --- [http-nio-8081-exec-1] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:23:45.377  WARN 21372 --- [http-nio-8081-exec-1] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:23:45.377 ERROR 21372 --- [http-nio-8081-exec-1] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:23:45.452  INFO 21372 --- [http-nio-8081-exec-2] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:23:45.453  WARN 21372 --- [http-nio-8081-exec-2] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:23:45.453 ERROR 21372 --- [http-nio-8081-exec-2] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:23:45.620  INFO 21372 --- [http-nio-8081-exec-3] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:23:45.620  WARN 21372 --- [http-nio-8081-exec-3] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:23:45.621 ERROR 21372 --- [http-nio-8081-exec-3] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:23:45.788  INFO 21372 --- [http-nio-8081-exec-4] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:23:45.788  WARN 21372 --- [http-nio-8081-exec-4] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:23:45.788 ERROR 21372 --- [http-nio-8081-exec-4] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:23:45.966  INFO 21372 --- [http-nio-8081-exec-5] c.sanjay.springweb.SpringWebApplication  : this is a info message
+2023-01-24 18:23:45.966  WARN 21372 --- [http-nio-8081-exec-5] c.sanjay.springweb.SpringWebApplication  : this is a warn message
+2023-01-24 18:23:45.966 ERROR 21372 --- [http-nio-8081-exec-5] c.sanjay.springweb.SpringWebApplication  : this is a error message
+2023-01-24 18:27:17.993  INFO 21372 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-24 18:27:18.202  INFO 21372 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-24 18:27:18.204  INFO 21372 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
